@@ -7,7 +7,7 @@ export default defineConfig({
     // Proxy /api requests to backend during development
     proxy: {
       '/api': {
-        target: 'https://foodcommerce.onrender.com',
+        target: 'https://musicapp-backend-ykxf.onrender.com',
         changeOrigin: true,
       }
     }
